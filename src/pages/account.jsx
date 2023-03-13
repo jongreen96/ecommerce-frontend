@@ -1,6 +1,6 @@
 export function Account() {
 	return (
-		<div>
+		<div className='page'>
 			<h1>Account</h1>
 		</div>
 	)

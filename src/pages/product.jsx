@@ -1,6 +1,6 @@
 export function Product() {
 	return (
-		<div>
+		<div className='page'>
 			<h1>Product</h1>
 		</div>
 	)

@@ -21,6 +21,7 @@
     --half-size: calc(var(--font-size) * 0.5);
     --full-size: var(--font-size);
     --double-size: calc(var(--font-size) * 2);
+    --icon-size: 30px;
 }
 
 /* Use a more-intuitive box-sizing model. */
@@ -45,6 +46,7 @@ body {
 body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
+
 }
 
 /* Improve media defaults */
@@ -106,10 +108,17 @@ body {
 
 .flex {
     display: flex;
+    gap: var(--half-size);
 }
 
 .icon {
-    width: 30px;
-    height: 30px;
+    width: var(--icon-size);
+    height: var(--icon-size);
     filter: var(--secondary-svg);
+}
+
+.page {
+    padding-top: 100px;
+    margin-inline: var(--half-size);
+    border: 1px solid red;
 }
