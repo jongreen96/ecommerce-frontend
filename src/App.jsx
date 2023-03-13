@@ -1,10 +1,16 @@
-function App() {
+import { Routes, Route } from 'react-router-dom'
+import { Home } from './pages/Home'
+import { NavBar } from './components/NavBar'
 
-  return (
-    <div className="App">
-      
-    </div>
-  )
+function App() {
+	return (
+		<>
+			<NavBar />
+			<Routes>
+				<Route path='/' element={<Home />} />
+			</Routes>
+		</>
+	)
 }
 
 export default App
