@@ -120,5 +120,4 @@ body {
 .page {
     padding-top: 100px;
     margin-inline: var(--half-size);
-    border: 1px solid red;
 }
