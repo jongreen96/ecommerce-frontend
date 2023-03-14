@@ -1,10 +1,10 @@
 import { Routes, Route } from 'react-router-dom'
-import { Home } from './pages/Home.jsx'
-import { Products } from './pages/Products.jsx'
-import { NavBar } from './components/NavBar.jsx'
-import { Product } from './pages/Product.jsx'
-import { About } from './pages/About.jsx'
-import { Account } from './pages/Account.jsx'
+import { Home } from './pages/home'
+import { Products } from './pages/products'
+import { NavBar } from './components/navBar'
+import { Product } from './pages/product'
+import { About } from './pages/about'
+import { Account } from './pages/account'
 
 function App() {
 	return (
