@@ -4,7 +4,7 @@ import { Products } from './pages/Products.jsx'
 import { NavBar } from './components/NavBar.jsx'
 import { Product } from './pages/Product.jsx'
 import { About } from './pages/About.jsx'
-import { Account } from './pages/Account.jsxq'
+import { Account } from './pages/Account.jsx'
 
 function App() {
 	return (
